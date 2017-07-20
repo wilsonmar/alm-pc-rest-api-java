@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="66" passed="66">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="2608" started-at="2017-07-18T19:03:25Z" finished-at="2017-07-18T19:03:27Z">
+    <groups>
+      <group name="crud">
+        <method signature="org.alm.TestDao.createRun()" name="createRun" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.createRunAttachment()" name="createRunAttachment" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.createRunStep()" name="createRunStep" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.createRunStepAttachment()" name="createRunStepAttachment" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestEntity()" name="readTestEntity" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestInstanceEntities()" name="readTestInstanceEntities" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestInstanceEntity()" name="readTestInstanceEntity" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestSetEntity()" name="readTestSetEntity" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestStepsEntities()" name="readTestStepsEntities" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.updateRunEntity()" name="updateRunEntity" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.updateRunStep()" name="updateRunStep" class="org.alm.TestDao"/>
+      </group>
+      <group name="attachment">
+        <method signature="org.alm.TestDao.createRunAttachment()" name="createRunAttachment" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.createRunStepAttachment()" name="createRunStepAttachment" class="org.alm.TestDao"/>
+        <method signature="org.alm.model.TestAttachment.description()" name="description" class="org.alm.model.TestAttachment"/>
+        <method signature="org.alm.model.TestAttachment.refType()" name="refType" class="org.alm.model.TestAttachment"/>
+        <method signature="org.alm.model.TestAttachment.type()" name="type" class="org.alm.model.TestAttachment"/>
+        <method signature="org.alm.model.TestAttachment.parentType()" name="parentType" class="org.alm.model.TestAttachment"/>
+        <method signature="org.alm.model.TestAttachment.fileSize()" name="fileSize" class="org.alm.model.TestAttachment"/>
+      </group>
+      <group name="test">
+        <method signature="org.alm.model.TestTest.description()" name="description" class="org.alm.model.TestTest"/>
+        <method signature="org.alm.model.TestTest.execStatus()" name="execStatus" class="org.alm.model.TestTest"/>
+        <method signature="org.alm.model.TestTest.owner()" name="owner" class="org.alm.model.TestTest"/>
+        <method signature="org.alm.model.TestTest.status()" name="status" class="org.alm.model.TestTest"/>
+        <method signature="org.alm.model.TestTest.subtypeId()" name="subtypeId" class="org.alm.model.TestTest"/>
+        <method signature="org.alm.model.TestTest.type()" name="type" class="org.alm.model.TestTest"/>
+      </group>
+      <group name="test-set">
+        <method signature="org.alm.model.TestTestSet.comment()" name="comment" class="org.alm.model.TestTestSet"/>
+        <method signature="org.alm.model.TestTestSet.linkage()" name="linkage" class="org.alm.model.TestTestSet"/>
+        <method signature="org.alm.model.TestTestSet.status()" name="status" class="org.alm.model.TestTestSet"/>
+        <method signature="org.alm.model.TestTestSet.subtypeId()" name="subtypeId" class="org.alm.model.TestTestSet"/>
+        <method signature="org.alm.model.TestTestSet.type()" name="type" class="org.alm.model.TestTestSet"/>
+      </group>
+      <group name="field">
+        <method signature="org.alm.model.TestField.value()" name="value" class="org.alm.model.TestField"/>
+        <method signature="org.alm.model.TestField.objectToXml()" name="objectToXml" class="org.alm.model.TestField"/>
+        <method signature="org.alm.model.TestField.name()" name="name" class="org.alm.model.TestField"/>
+        <method signature="org.alm.model.TestField.initFieldDefault()" name="initFieldDefault" class="org.alm.model.TestField"/>
+        <method signature="org.alm.model.TestField.initFieldTwoParam()" name="initFieldTwoParam" class="org.alm.model.TestField"/>
+        <method signature="org.alm.model.TestField.xmlToObject()" name="xmlToObject" class="org.alm.model.TestField"/>
+        <method signature="org.alm.model.TestField.initFieldOneParam()" name="initFieldOneParam" class="org.alm.model.TestField"/>
+      </group>
+      <group name="const">
+        <method signature="org.alm.model.TestModelConstants.runConstants()" name="runConstants" class="org.alm.model.TestModelConstants"/>
+      </group>
+      <group name="test-instance">
+        <method signature="org.alm.model.TestTestInstance.iterations()" name="iterations" class="org.alm.model.TestTestInstance"/>
+        <method signature="org.alm.model.TestTestInstance.testSetId()" name="testSetId" class="org.alm.model.TestTestInstance"/>
+        <method signature="org.alm.model.TestTestInstance.type()" name="type" class="org.alm.model.TestTestInstance"/>
+        <method signature="org.alm.model.TestTestInstance.testId()" name="testId" class="org.alm.model.TestTestInstance"/>
+      </group>
+      <group name="enity">
+        <method signature="org.alm.TestDao.createRun()" name="createRun" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.createRunAttachment()" name="createRunAttachment" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.createRunStep()" name="createRunStep" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.createRunStepAttachment()" name="createRunStepAttachment" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.updateRunEntity()" name="updateRunEntity" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.updateRunStep()" name="updateRunStep" class="org.alm.TestDao"/>
+      </group>
+      <group name="run">
+        <method signature="org.alm.model.TestModelConstants.runConstants()" name="runConstants" class="org.alm.model.TestModelConstants"/>
+      </group>
+      <group name="entity">
+        <method signature="org.alm.TestDao.readTestEntity()" name="readTestEntity" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestInstanceEntities()" name="readTestInstanceEntities" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestInstanceEntity()" name="readTestInstanceEntity" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestSetEntity()" name="readTestSetEntity" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.readTestStepsEntities()" name="readTestStepsEntities" class="org.alm.TestDao"/>
+        <method signature="org.alm.model.TestEntity.fields()" name="fields" class="org.alm.model.TestEntity"/>
+        <method signature="org.alm.model.TestEntity.id()" name="id" class="org.alm.model.TestEntity"/>
+        <method signature="org.alm.model.TestEntity.initEntityWithParam()" name="initEntityWithParam" class="org.alm.model.TestEntity"/>
+        <method signature="org.alm.model.TestEntity.name()" name="name" class="org.alm.model.TestEntity"/>
+        <method signature="org.alm.model.TestEntity.objectToXml()" name="objectToXml" class="org.alm.model.TestEntity"/>
+        <method signature="org.alm.model.TestEntity.parentId()" name="parentId" class="org.alm.model.TestEntity"/>
+        <method signature="org.alm.model.TestEntity.type()" name="type" class="org.alm.model.TestEntity"/>
+        <method signature="org.alm.model.TestEntity.xmlToObject()" name="xmlToObject" class="org.alm.model.TestEntity"/>
+      </group>
+      <group name="authentication">
+        <method signature="org.alm.TestDao.isAutheticatedUnauthorized()" name="isAutheticatedUnauthorized" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.login()" name="login" class="org.alm.TestDao"/>
+        <method signature="org.alm.TestDao.logout()" name="logout" class="org.alm.TestDao"/>
+      </group>
+    </groups>
+    <test name="Command line test" duration-ms="2608" started-at="2017-07-18T19:03:25Z" finished-at="2017-07-18T19:03:27Z">
+      <class name="org.alm.model.TestTestSet">
+        <test-method status="PASS" signature="initTestSetEntity()" name="initTestSetEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="comment()" name="comment" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="linkage()" name="linkage" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestSetEntity()" name="initTestSetEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="status()" name="status" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestSetEntity()" name="initTestSetEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="subtypeId()" name="subtypeId" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestSetEntity()" name="initTestSetEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="type()" name="type" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestSetEntity()" name="initTestSetEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.model.TestModelConstants">
+        <test-method status="PASS" signature="runConstants()" name="runConstants" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.TestRestConnector">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="34" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="accessors()" name="accessors" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="buildEntityUrl()" name="buildEntityUrl" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="delete()" name="delete" duration-ms="20" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="get()" name="get" duration-ms="14" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="getXmlContent()" name="getXmlContent" duration-ms="31" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="post()" name="post" duration-ms="18" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="put()" name="put" duration-ms="19" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="3" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.model.TestEntity">
+        <test-method status="PASS" signature="initEntity()" name="initEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="fields()" name="fields" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initEntity()" name="initEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initEntity()" name="initEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="id()" name="id" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initEntityWithParam()" name="initEntityWithParam" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="objectToXml()" name="objectToXml" duration-ms="7" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initEntity()" name="initEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initEntity()" name="initEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="name()" name="name" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="parentId()" name="parentId" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initEntity()" name="initEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initEntity()" name="initEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="type()" name="type" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="xmlToObject()" name="xmlToObject" duration-ms="5" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initEntity()" name="initEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.model.TestTestInstance">
+        <test-method status="PASS" signature="iterations()" name="iterations" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestInstanceEntity()" name="initTestInstanceEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestInstanceEntity()" name="initTestInstanceEntity" is-config="true" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testSetId()" name="testSetId" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestInstanceEntity()" name="initTestInstanceEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestInstanceEntity()" name="initTestInstanceEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="type()" name="type" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testId()" name="testId" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.model.TestAttachment">
+        <test-method status="PASS" signature="initAttachmentEntity()" name="initAttachmentEntity" is-config="true" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="description()" name="description" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initAttachmentEntity()" name="initAttachmentEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="refType()" name="refType" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="type()" name="type" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="parentType()" name="parentType" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initAttachmentEntity()" name="initAttachmentEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initAttachmentEntity()" name="initAttachmentEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="fileSize()" name="fileSize" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initAttachmentEntity()" name="initAttachmentEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.TestClient">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="949" started-at="2017-07-18T19:03:25Z" finished-at="2017-07-18T19:03:26Z">
+        </test-method>
+        <test-method status="PASS" signature="login()" name="login" duration-ms="307" started-at="2017-07-18T19:03:26Z" finished-at="2017-07-18T19:03:26Z">
+        </test-method>
+        <test-method status="PASS" signature="loadTestSet()" name="loadTestSet" duration-ms="227" started-at="2017-07-18T19:03:26Z" depends-on-methods="org.alm.TestClient.login" finished-at="2017-07-18T19:03:26Z">
+        </test-method>
+        <test-method status="PASS" signature="loadTestInstances()" name="loadTestInstances" duration-ms="41" started-at="2017-07-18T19:03:26Z" depends-on-methods="org.alm.TestClient.loadTestSet" finished-at="2017-07-18T19:03:26Z">
+        </test-method>
+        <test-method status="PASS" signature="loadTest()" name="loadTest" duration-ms="32" started-at="2017-07-18T19:03:26Z" depends-on-methods="org.alm.TestClient.loadTestInstances" finished-at="2017-07-18T19:03:26Z">
+        </test-method>
+        <test-method status="PASS" signature="createRun()" name="createRun" duration-ms="249" started-at="2017-07-18T19:03:26Z" depends-on-methods="org.alm.TestClient.loadTest" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="createRunSteps()" name="createRunSteps" duration-ms="56" started-at="2017-07-18T19:03:27Z" depends-on-methods="org.alm.TestClient.createRun" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="logout()" name="logout" duration-ms="24" started-at="2017-07-18T19:03:27Z" depends-on-methods="org.alm.TestClient.createRunSteps" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="6" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.TestDao">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="105" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="createRun()" name="createRun" duration-ms="36" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="createRunAttachment()" name="createRunAttachment" duration-ms="27" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="createRunStep()" name="createRunStep" duration-ms="28" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="createRunStepAttachment()" name="createRunStepAttachment" duration-ms="20" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="isAutheticatedUnauthorized()" name="isAutheticatedUnauthorized" duration-ms="24" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="login()" name="login" duration-ms="100" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="logout()" name="logout" duration-ms="33" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="readTestEntity()" name="readTestEntity" duration-ms="21" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="readTestInstanceEntities()" name="readTestInstanceEntities" duration-ms="25" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="readTestInstanceEntity()" name="readTestInstanceEntity" duration-ms="19" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="readTestSetEntity()" name="readTestSetEntity" duration-ms="20" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="readTestStepsEntities()" name="readTestStepsEntities" duration-ms="22" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="updateRunEntity()" name="updateRunEntity" duration-ms="20" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="updateRunStep()" name="updateRunStep" duration-ms="19" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="2" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.TestConfig">
+        <test-method status="PASS" signature="defaultValues()" name="defaultValues" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="accessors()" name="accessors" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.model.TestTest">
+        <test-method status="PASS" signature="initTestEntity()" name="initTestEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="description()" name="description" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestEntity()" name="initTestEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="execStatus()" name="execStatus" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestEntity()" name="initTestEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="owner()" name="owner" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="subtypeId()" name="subtypeId" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestEntity()" name="initTestEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="status()" name="status" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestEntity()" name="initTestEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initTestEntity()" name="initTestEntity" is-config="true" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="type()" name="type" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+      <class name="org.alm.model.TestField">
+        <test-method status="PASS" signature="objectToXml()" name="objectToXml" duration-ms="2" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="value()" name="value" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initFieldDefault()" name="initFieldDefault" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="name()" name="name" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="xmlToObject()" name="xmlToObject" duration-ms="7" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initFieldTwoParam()" name="initFieldTwoParam" duration-ms="0" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+        <test-method status="PASS" signature="initFieldOneParam()" name="initFieldOneParam" duration-ms="1" started-at="2017-07-18T19:03:27Z" finished-at="2017-07-18T19:03:27Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

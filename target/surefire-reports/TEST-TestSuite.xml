@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="66" failures="0" name="TestSuite" time="1.482" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mac/gits/wilsonmar/alm-rest-api"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/mac/gits/wilsonmar/alm-rest-api"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/j_/gh27gpxj1t58hyryfg9drvdc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/mac"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="utf-8"/>
+    <property name="user.name" value="mac"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="/Users/mac/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.alm.TestClient" name="login" time="0.308"/>
+  <testcase classname="org.alm.TestClient" name="loadTestSet" time="0.226"/>
+  <testcase classname="org.alm.TestClient" name="loadTestInstances" time="0.041"/>
+  <testcase classname="org.alm.TestClient" name="loadTest" time="0.032"/>
+  <testcase classname="org.alm.TestClient" name="createRun" time="0.249"/>
+  <testcase classname="org.alm.TestClient" name="createRunSteps" time="0.056"/>
+  <testcase classname="org.alm.TestClient" name="logout" time="0.024"/>
+  <testcase classname="org.alm.TestDao" name="createRun" time="0.036"/>
+  <testcase classname="org.alm.TestDao" name="createRunAttachment" time="0.027"/>
+  <testcase classname="org.alm.TestDao" name="createRunStep" time="0.028"/>
+  <testcase classname="org.alm.TestDao" name="createRunStepAttachment" time="0.02"/>
+  <testcase classname="org.alm.TestDao" name="isAutheticatedUnauthorized" time="0.024"/>
+  <testcase classname="org.alm.TestDao" name="login" time="0.101"/>
+  <testcase classname="org.alm.TestDao" name="logout" time="0.033"/>
+  <testcase classname="org.alm.TestDao" name="readTestEntity" time="0.021"/>
+  <testcase classname="org.alm.TestDao" name="readTestInstanceEntities" time="0.025"/>
+  <testcase classname="org.alm.TestDao" name="readTestInstanceEntity" time="0.018"/>
+  <testcase classname="org.alm.TestDao" name="readTestSetEntity" time="0.02"/>
+  <testcase classname="org.alm.TestDao" name="readTestStepsEntities" time="0.022"/>
+  <testcase classname="org.alm.TestDao" name="updateRunEntity" time="0.02"/>
+  <testcase classname="org.alm.TestDao" name="updateRunStep" time="0.019"/>
+  <testcase classname="org.alm.TestRestConnector" name="accessors" time="0.001"/>
+  <testcase classname="org.alm.TestRestConnector" name="buildEntityUrl" time="0.001"/>
+  <testcase classname="org.alm.TestRestConnector" name="delete" time="0.02"/>
+  <testcase classname="org.alm.TestRestConnector" name="get" time="0.014"/>
+  <testcase classname="org.alm.TestRestConnector" name="getXmlContent" time="0.031"/>
+  <testcase classname="org.alm.TestRestConnector" name="post" time="0.017"/>
+  <testcase classname="org.alm.TestRestConnector" name="put" time="0.019"/>
+  <testcase classname="org.alm.model.TestEntity" name="fields" time="0"/>
+  <testcase classname="org.alm.model.TestEntity" name="id" time="0"/>
+  <testcase classname="org.alm.model.TestEntity" name="initEntityWithParam" time="0.002"/>
+  <testcase classname="org.alm.model.TestEntity" name="name" time="0"/>
+  <testcase classname="org.alm.model.TestEntity" name="objectToXml" time="0.008"/>
+  <testcase classname="org.alm.model.TestEntity" name="parentId" time="0"/>
+  <testcase classname="org.alm.model.TestEntity" name="type" time="0"/>
+  <testcase classname="org.alm.model.TestEntity" name="xmlToObject" time="0.005"/>
+  <testcase classname="org.alm.model.TestTest" name="description" time="0"/>
+  <testcase classname="org.alm.model.TestTest" name="execStatus" time="0"/>
+  <testcase classname="org.alm.model.TestTest" name="owner" time="0"/>
+  <testcase classname="org.alm.model.TestTest" name="status" time="0"/>
+  <testcase classname="org.alm.model.TestTest" name="subtypeId" time="0.001"/>
+  <testcase classname="org.alm.model.TestTest" name="type" time="0"/>
+  <testcase classname="org.alm.model.TestTestSet" name="comment" time="0.001"/>
+  <testcase classname="org.alm.model.TestTestSet" name="linkage" time="0"/>
+  <testcase classname="org.alm.model.TestTestSet" name="status" time="0"/>
+  <testcase classname="org.alm.model.TestTestSet" name="subtypeId" time="0"/>
+  <testcase classname="org.alm.model.TestTestSet" name="type" time="0"/>
+  <testcase classname="org.alm.model.TestField" name="value" time="0"/>
+  <testcase classname="org.alm.model.TestField" name="objectToXml" time="0.002"/>
+  <testcase classname="org.alm.model.TestField" name="name" time="0"/>
+  <testcase classname="org.alm.model.TestField" name="initFieldDefault" time="0"/>
+  <testcase classname="org.alm.model.TestField" name="initFieldTwoParam" time="0"/>
+  <testcase classname="org.alm.model.TestField" name="xmlToObject" time="0.007"/>
+  <testcase classname="org.alm.model.TestField" name="initFieldOneParam" time="0"/>
+  <testcase classname="org.alm.model.TestAttachment" name="description" time="0"/>
+  <testcase classname="org.alm.model.TestAttachment" name="refType" time="0"/>
+  <testcase classname="org.alm.model.TestAttachment" name="type" time="0"/>
+  <testcase classname="org.alm.model.TestAttachment" name="parentType" time="0.001"/>
+  <testcase classname="org.alm.model.TestAttachment" name="fileSize" time="0"/>
+  <testcase classname="org.alm.model.TestModelConstants" name="runConstants" time="0"/>
+  <testcase classname="org.alm.model.TestTestInstance" name="iterations" time="0"/>
+  <testcase classname="org.alm.model.TestTestInstance" name="testSetId" time="0"/>
+  <testcase classname="org.alm.model.TestTestInstance" name="type" time="0"/>
+  <testcase classname="org.alm.model.TestTestInstance" name="testId" time="0.001"/>
+  <testcase classname="org.alm.TestConfig" name="accessors" time="0.001"/>
+  <testcase classname="org.alm.TestConfig" name="defaultValues" time="0"/>
+</testsuite>
