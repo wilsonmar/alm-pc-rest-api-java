@@ -1,12 +1,11 @@
-
-### Features
 The current state of this is as it was forked from 
 Create, read, update, and delete entities on the ALM HP platform.
 
 Additional coding TODO:
-1. Make this run in console mode after Maven install, with default configuration.
-2. Add Performance Center calls
-3. Add output to CSV, MySQL
+1. Make this run in console mode after Maven install, with default configuration (list projects).
+2. Define ALM server userid/password credentials as enviornment variables so they can be managed by Jenkins/Hashicorp Vault.
+3. Add Performance Center calls
+4. Add output to CSV, MySQL
 
 ### Installing
 ```
