@@ -1,11 +1,12 @@
-## ALM REST API Integration
-[![Build Status](https://travis-ci.org/okean/alm-rest-api.svg?branch=master)](https://travis-ci.org/okean/alm-rest-api)
-[![Coverage Status](https://coveralls.io/repos/github/okean/alm-rest-api/badge.svg?branch=master)](https://coveralls.io/github/okean/alm-rest-api?branch=master)
-
-A simple Java API client to connect to HP ALM using REST service.
 
 ### Features
+The current state of this is as it was forked from 
 Create, read, update, and delete entities on the ALM HP platform.
+
+Additional coding TODO:
+1. Make this run in console mode after Maven install, with default configuration.
+2. Add Performance Center calls
+3. Add output to CSV, MySQL
 
 ### Installing
 ```
