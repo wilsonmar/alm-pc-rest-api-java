@@ -28,5 +28,7 @@ client.logout();
 ### REST API Overview
 http://alm-help.saas.hpe.com/en/12.50/api_refs/REST_TECH_PREVIEW/ALM_REST_API_TP.html
 
+http://alm-help.saas.hpe.com/en/12.50/api_refs/Performance_Center_REST_API/Performance_Center_REST_API.htm#authenticate.htm%3FTocPath%3DResources%7C_____1
+
 ### Licensing
 See [LICENSE](https://github.com/okean/alm-rest-api/blob/master/LICENSE)
